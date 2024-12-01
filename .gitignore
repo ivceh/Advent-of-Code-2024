@@ -30,3 +30,6 @@ bin/
 
 # txt inputs #
 txt/
+
+# templates #
+/src/days/DayXX.java

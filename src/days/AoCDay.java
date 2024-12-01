@@ -1,6 +1,7 @@
 package days;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.LocalTime;
@@ -15,21 +16,21 @@ public abstract class AoCDay
         this.fileName = "src/txt/" + fileName;
     }
 
-    void read_file()
-    {
-        try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
+    void read_file() throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader(fileName));
+        read_from_buffer(reader);
+        /*try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             read_from_buffer(reader);
         } catch (IOException e) {
             System.err.println("Error reading the file: " + e.getMessage());
         } catch (NumberFormatException e) {
             System.err.println("Invalid number format: " + e.getMessage());
-        }
+        }*/
     }
 
     abstract void read_from_buffer(BufferedReader reader) throws IOException;
 
-    public void run()
-    {
+    public void run() throws IOException {
         t1 = LocalTime.now();
         read_file();
         solve();
