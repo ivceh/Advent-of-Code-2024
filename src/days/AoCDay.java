@@ -3,6 +3,7 @@ package days;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
 
@@ -10,9 +11,10 @@ public abstract class AoCDay
 {
     String fileName;
     LocalTime t1;
+    static DecimalFormat formatter = new DecimalFormat("00");
 
-    public AoCDay(String fileName) {
-        this.fileName = "src/txt/" + fileName;
+    public AoCDay(String s) {
+        this.fileName = s;
     }
 
     void read_file() throws IOException {
