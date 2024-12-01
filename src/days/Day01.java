@@ -3,7 +3,6 @@ package days;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class Day01 extends AoCDay
@@ -12,8 +11,8 @@ public class Day01 extends AoCDay
         super(s);
     }
 
-    ArrayList<Integer> L1 = new ArrayList<Integer>();
-    ArrayList<Integer> L2 = new ArrayList<Integer>();
+    ArrayList<Integer> L1 = new ArrayList<>();
+    ArrayList<Integer> L2 = new ArrayList<>();
     int s=0, s2=0;
 
     void read_from_buffer(BufferedReader reader) throws IOException
