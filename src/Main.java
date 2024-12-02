@@ -9,18 +9,17 @@ public class Main
     public static void main(String[] args) throws IOException {
         InitDays();
         PrintTime();
-        SolveDay(1);
+        SolveDay(2);
         //SolveDays(2);
     }
 
     static ArrayList<AoCDay> days = new ArrayList<>();
-
-    public static void InitDays() {
+    static void InitDays() {
         days.add(new Day01("src/txt/input01.txt"));
-        days.add(new Day02("src/txt/input01.txt"));
+        days.add(new Day02("src/txt/input02.txt"));
     }
 
-    public static void PrintTime() {
+    static void PrintTime() {
         System.out.println(LocalDate.now() + " " + LocalTime.now());
     }
 
