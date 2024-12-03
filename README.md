@@ -5,9 +5,9 @@ Programming language: Java
 | Day | Task                                                            | View Solution                      |
 | --- |-----------------------------------------------------------------|------------------------------------|
 | 01  | [Historian Hysteria](https://adventofcode.com/2024/day/1)       | [Day01.java](/src/days/Day01.java) |
+| 02  | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)        | [Day02.java](/src/days/Day02.java) |
+| 03  | [Mull It Over](https://adventofcode.com/2024/day/3)             | [Day03.java](/src/days/Day03.java) |
 <!---
-| 02  | [?](https://adventofcode.com/2024/day/2)                                  | [Day02.java](/src/days/Day02.java)    |
-| 03  | [?](https://adventofcode.com/2024/day/3)                                  | [Day03.java](/src/days/Day03.java)    |
 | 04  | [?](https://adventofcode.com/2024/day/4)                                  | [Day04.java](/src/days/Day04.java)    |
 | 05  | [?](https://adventofcode.com/2024/day/5)                                  | [Day05.java](/src/days/Day05.java)    |
 | 06  | [?](https://adventofcode.com/2024/day/6)                                  | [Day06.java](/src/days/Day06.java)    |
