@@ -18,6 +18,7 @@ public class Main
         days.add(new Day01("src/txt/input01.txt"));
         days.add(new Day02("src/txt/input02.txt"));
         days.add(new Day03("src/txt/input03.txt"));
+        days.add(new Day04("src/txt/input04.txt"));
     }
 
     static void PrintTime() {

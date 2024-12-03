@@ -29,7 +29,6 @@ public class Day03 extends AoCDay {
                 Pattern pattern = Pattern.compile(s);
                 Matcher matcher = pattern.matcher(line);
 
-                System.out.println("Matching substrings:");
                 // Find all matches
                 while (matcher.find()) {
                     Integer j = matcher.start();
@@ -47,7 +46,6 @@ public class Day03 extends AoCDay {
             Pattern pattern = Pattern.compile(regex);
             Matcher matcher = pattern.matcher(v);
 
-            System.out.println("Matching substrings:");
             // Find all matches
             if (matcher.matches()) {
                 int n1 = Integer.parseInt(matcher.group(1));
@@ -60,7 +58,6 @@ public class Day03 extends AoCDay {
                 enabled = true;
             else
                 enabled = false;
-            System.out.println(v + " " + enabled);
         }
         System.out.println("Part 1: " + s1);
         System.out.println("Part 2: " + s2);
