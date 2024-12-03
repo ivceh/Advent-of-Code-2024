@@ -9,7 +9,7 @@ public class Main
     public static void main(String[] args) throws IOException {
         InitDays();
         PrintTime();
-        SolveDay(2);
+        SolveDay(3);
         //SolveDays(2);
     }
 
@@ -17,6 +17,7 @@ public class Main
     static void InitDays() {
         days.add(new Day01("src/txt/input01.txt"));
         days.add(new Day02("src/txt/input02.txt"));
+        days.add(new Day03("src/txt/input03.txt"));
     }
 
     static void PrintTime() {
